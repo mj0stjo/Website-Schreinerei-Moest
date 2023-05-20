@@ -1,10 +1,4 @@
-on: 
- push:
-  paths-ignore:
-      - 'README.md'
-      - '.git'
-      - '.github'
-      - '.gitignore'
+on: push
 name: Deploy website on push
 jobs:
  upload_files:
@@ -21,5 +15,5 @@ jobs:
         port: ${{ secrets.PORT }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        localPath: './'
+        localPath: './root/'
         remotePath: './'
