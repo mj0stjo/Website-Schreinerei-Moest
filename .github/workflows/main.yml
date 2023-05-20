@@ -1,4 +1,9 @@
-on: push
+on:
+ push:
+  paths-ignore:
+      - 'README.md'
+      - '.gitignore'
+      - 'LICENCE'
 name: Deploy website on push
 jobs:
  upload_files:
