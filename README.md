@@ -13,7 +13,7 @@ This repository contains the source code and related files for the static websit
 
 To run the website locally, simply clone the repository:
   
-    git clone <repository_url>
+    git clone https://github.com/mj0stjo/Website-Schreinerei-Moest.git
   
 Then, navigate to the project directory:
 
@@ -41,4 +41,4 @@ Please ensure that your code adheres to the project's coding style and conventio
 
 ## License
 
-The content of this repository is licensed under the MIT License. Feel free to modify and distribute the code for personal or commercial use.
+The content of this repository is licensed under the [GNU GPLv3 Licence](/LICENSE).
