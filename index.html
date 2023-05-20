@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <meta http-equiv="content-type" content="ie=edge; text/html; charset=utf-8">
+    <title>Schreinerei Möst - Ideen fürs Leben</title>
+    <link rel="shortcut icon" href="/images/logo_icon.png">
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="logo">
+            <img src="images/logo.png" alt="Logo der Schreinerei Möst">
+            <div class="Logo_Schrift">
+                <h1>Schreinerei Möst</h1>
+                <h2>Ideen fürs Leben</h2>
+            </div>
+        </section>
+
+        <section class="navigation">
+            <div class="background"></div>
+            <nav>
+                <ul>
+                    <li><button onclick="window.location.href = 'index.html';" type="buttonHeader"
+                            id="Home">Home</button></li>
+                    <li><button onclick="window.location.href = 'bilder.html';" type="buttonHeader"
+                            id="Bilder">Bilder</button></li>
+                    <li><button onclick="window.location.href = 'empty.html';" type="buttonHeader"
+                            id="Unternehmen">Unternehmen</button></li>
+                    <li><button onclick="window.location.href = 'empty.html';" type="buttonHeader"
+                            id="Kontakt">Kontakt</button></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="slidebar">
+            <div class="slides fade">
+                <a href="images/kuchen/kuchen6_start.jpg">
+                    <img src="images/kuchen/kuchen6_start.jpg" alt="Bild 0">
+                </a>
+             </div>
+             <div class="slides fade">
+                <a href="images/kuchen/kuchen7_start.jpg">
+                    <img src="images/kuchen/kuchen7_start.jpg" alt="Bild 1">
+                </a>
+             </div>
+             
+            <div class="slides fade">
+                <a href="images/bad/bad16_start.jpg">
+                    <img src="images/bad/bad16_start.jpg" alt="Bild 9">
+                </a>
+             </div>
+             <div class="slides fade">
+                <a href="images/bad/bad20_start.jpg">
+                    <img src="images/bad/bad20_start.jpg" alt="Bild 14">
+                </a>
+             </div>
+
+             <div class="slides fade">
+                <a href="images/sonstiges/sonstiges14_start.jpg">
+                    <img src="images/sonstiges/sonstiges14_start.jpg" alt="Bild 0">
+                </a>
+             </div>
+             <div class="slides fade">
+                <a href="images/sonstiges/sonstiges16_start.jpg">
+                    <img src="images/sonstiges/sonstiges16_start.jpg" alt="Bild 3">
+                </a>
+             </div>
+             
+            <div class="buttons">
+                <button class="PfeilButton" id="links" onclick="plusSlides(-1)">
+                    <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                </button>
+                <button class="PfeilButton" id="rechts" onclick="plusSlides(1)">
+                    <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                        alt="Pfeil nach rechts"> </img>
+                </button>
+            </div>
+        </section>
+
+        <section class="sidetext">
+            <div class="headline">
+                <h3>
+                    - Individuell - Kreativ -<br>
+                    - Meisterhaft -
+                </h3>
+            </div>
+            <p>
+                Egal ob zum Wohnen oder Arbeiten, mit unseren modernen Designs und innovativen Lösungen gestalten wir
+                Ihr individuelles Umfeld so, dass Sie alle Annehmlichkeiten und Funktionalitäten Ihres Raumes optimal
+                nutzen können.
+            </p>
+        </section>
+
+        <section class="innungsschreiner">
+            <div class="text">
+                <h4>Jedes Stück ein Meisterstück. Von Ihrem Innungsschreiner.</h4>
+            </div>
+            <div class="pfeile">
+                <img src="images/arrow_down.svg" alt="Pfeil nach unten"></img>
+            </div>
+        </section>
+
+        <section class="auszeichnungen">
+            <h4>
+                - Anerkannter Ausbildungsbetrieb - Innungsschreinerei -<br>
+                - Qualitätsgemeinschaft Gebäudesicherheit -
+            </h4>
+            <div class="links">
+                <a class="hwk" href="https://www.hwk-schwaben.de/"><img src="images/logo_hwk.png"
+                        alt="Logo der Handwerkskammer Schwaben" class="hwk"></a>
+                <a class="innung" href="https://www.schreiner.de/"><img src="images/logo_innung.png"
+                        alt="Logo der Schreinerinnung" class="innung"></a>
+                <a class="sicherheit"
+                    href="https://www.schreiner.de/fuer-schreiner/qualitaetsgemeinschaften/gebaeudesicherheit"><img
+                        src="images/logo_sicherheit.png" alt="Siegel der Qualitätsgemeinschaft Gebäudesicherheit"
+                        class="sicherheit"></a>
+            </div>
+        </section>
+
+        <section class="adress">
+            <p>
+                <span>Schreinerei Möst</span>
+                <span class="spacer">-</span>
+                <span>Buchenstraße 24</span>
+                <span class="spacer">-</span>
+                <span>86498 Kettershausen</span>
+                <span class="spacer">-</span>
+                <span>Tel.: 08333 / 2898</span>
+                <span class="spacer">-</span>
+                <span>Mail: <a href="mailto: info@schreinerei-moest.de">info@schreinerei-moest.de</a></span>
+            </p>
+            <div class="impressum">
+                <button onclick="window.location.href = 'impressum.html';" type="buttonFooter"
+                    id="Impressum">Impressum</button>
+            </div>
+        </section>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slides");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "initial";
+        } 
+    </script>
+</body>
+
+</html>

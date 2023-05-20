@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="174.164" height="84.862" viewBox="0 0 174.164 84.862">
+  <defs>
+    <filter id="Pfad_3" x="0" y="16" width="174.164" height="68.862" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#605454" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pfad_4" x="20" y="0" width="133.924" height="57.618" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#605454" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Komponente_1_1" data-name="Komponente 1 – 1" transform="translate(11.147 9.955)">
+    <g transform="matrix(1, 0, 0, 1, -11.15, -9.95)" filter="url(#Pfad_3)">
+      <path id="Pfad_3-2" data-name="Pfad 3" d="M1781.089,196.411l42.407,73.654-42.407,78.118" transform="translate(359.33 -1755.13) rotate(90)" fill="none" stroke="#9a9a9a" stroke-linejoin="round" stroke-width="9" opacity="0.9"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -11.15, -9.95)" filter="url(#Pfad_4)">
+      <path id="Pfad_4-2" data-name="Pfad 4" d="M1781.089,196.411l31.163,54.126-31.163,57.406" transform="translate(339.09 -1771.13) rotate(90)" fill="none" stroke="#9a9a9a" stroke-linejoin="round" stroke-width="9" opacity="0.9"/>
+    </g>
+  </g>
+</svg>

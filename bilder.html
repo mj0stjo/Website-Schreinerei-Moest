@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <meta http-equiv="content-type" content="ie=edge; text/html; charset=utf-8">
+    <title>Schreinerei Möst - Ideen fürs Leben</title>
+    <link rel="shortcut icon" href="/images/logo_icon.png">
+    <link href="css/bilder.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="logo">
+            <img src="images/logo.png" alt="Logo der Schreinerei Möst">
+            <div class="Logo_Schrift">
+                <h1>Schreinerei Möst</h1>
+                <h2>Ideen fürs Leben</h2>
+            </div>
+        </section>
+
+        <section class="navigation">
+            <div class="background"></div>
+            <nav>
+                <ul>
+                    <li><button onclick="window.location.href = 'index.html';" type="buttonHeader"
+                            id="Home">Home</button></li>
+                    <li><button onclick="window.location.href = 'bilder.html';" type="buttonHeader"
+                            id="Bilder">Bilder</button></li>
+                    <li><button onclick="window.location.href = 'empty.html';" type="buttonHeader"
+                            id="Unternehmen">Unternehmen</button></li>
+                    <li><button onclick="window.location.href = 'empty.html';" type="buttonHeader"
+                            id="Kontakt">Kontakt</button></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="image_navigation" id="drop">
+            <button onclick="dropMenu()" class="dropbtn" id="drop">
+                <img src="images/arrow_thin.svg" alt="" id="drop">
+                <h2 class="dropbtn_text" id="drop">Küchen</h2>
+                <img src="images/arrow_thin.svg" alt="" id="drop">
+            </button>
+            <div class="drop_content" id="drop">
+                <button onclick="changeCategory('Küchen')" name="drop_content" id="drop"
+                    style="display: none;">Küchen</button>
+                <button onclick="changeCategory('Bäder')" name="drop_content" id="drop">Bäder</button>
+                <button onclick="changeCategory('Wohnen')" name="drop_content" id="drop">Wohnen</button>
+                <button onclick="changeCategory('Wandverkleidungen')" name="drop_content" id="drop"
+                    class="wand">Wandverkleidungen</button>
+                <button onclick="changeCategory('Lösungen')" name="drop_content" id="drop">Lösungen</button>
+                <button onclick="changeCategory('Sonstiges')" name="drop_content" id="drop">Sonstiges</button>
+            </div>
+        </section>
+
+        <section class="slidebar">
+
+            <!-- ##################### Küchen ##################### -->
+
+            <div class="headline" name="slider" category="Küchen">
+                <h4>Küchen</h4>
+            </div>
+
+            <div class="slide" category="Küchen" name="slider" slides="kuchen" style="display: none;" >
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen4.jpg">
+                        <img src="images/kuchen/kuchen4.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen1.jpg">
+                        <img src="images/kuchen/kuchen1.jpg" alt="Bild 3" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen2.JPG">
+                        <img src="images/kuchen/kuchen2.JPG" alt="Bild 4" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen5.jpg">
+                        <img src="images/kuchen/kuchen5.jpg" alt="Bild 5" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen6_start.jpg">
+                        <img src="images/kuchen/kuchen6_start.jpg" alt="Bild 6" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen7_start.jpg">
+                        <img src="images/kuchen/kuchen7_start.jpg" alt="Bild 7" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen8.jpg">
+                        <img src="images/kuchen/kuchen8.jpg" alt="Bild 8" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen9.jpg">
+                        <img src="images/kuchen/kuchen9.jpg" alt="Bild 9" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen13.jpg">
+                        <img src="images/kuchen/kuchen13.jpg" alt="Bild 10" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen19.JPG">
+                        <img src="images/kuchen/kuchen19.JPG" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen3_ganz.JPG">
+                        <img src="images/kuchen/kuchen3.jpg" alt="Bild 11" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen0_ganz.JPG">
+                        <img src="images/kuchen/kuchen0.JPG" alt="Bild 12" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen10.jpg">
+                        <img src="images/kuchen/kuchen10.jpg" alt="Bild 13" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen12.jpg">
+                        <img src="images/kuchen/kuchen12.jpg" alt="Bild 14" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/wohnen/wohnen24.JPG">
+                        <img src="images/wohnen/wohnen24.JPG" alt="Bild 15" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen16.JPG">
+                        <img src="images/kuchen/kuchen16.JPG" alt="Bild 16" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen11.JPG">
+                        <img src="images/kuchen/kuchen11.JPG" alt="Bild 17" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen18.JPG">
+                        <img src="images/kuchen/kuchen18.JPG" alt="Bild 18" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen14.JPG">
+                        <img src="images/kuchen/kuchen14.JPG" alt="Bild 19" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen17.JPG">
+                        <img src="images/kuchen/kuchen17.JPG" alt="Bild 20" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade kuchen">
+                    <a href="images/kuchen/kuchen15.jpg">
+                        <img src="images/kuchen/kuchen15.jpg" alt="Bild 21" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'kuchen')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'kuchen')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- ##################### Bäder ##################### -->
+
+            <div class="headline" name="slider" category="Bäder">
+                <h4>Bäder</h4>
+            </div>
+
+            <div class="slide" category="Bäder" name="slider" slides="bad" style="display: none;">
+                <div class="slides fade bad">
+                    <a href="images/bad/bad16_start.jpg">
+                        <img src="images/bad/bad16_start.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade bad">
+                    <a href="images/bad/bad17.jpg">
+                        <img src="images/bad/bad17.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade bad">
+                    <a href="images/bad/bad18.jpg">
+                        <img src="images/bad/bad18.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade bad">
+                    <a href="images/bad/bad19.jpg">
+                        <img src="images/bad/bad19.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade bad">
+                    <a href="images/bad/bad20_start.jpg">
+                        <img src="images/bad/bad20_start.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade bad">
+                    <a href="images/bad/bad11.jpg">
+                        <img src="images/bad/bad11.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade bad">
+                    <a href="images/bad/bad14.jpg">
+                        <img src="images/bad/bad14.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade bad">
+                    <a href="images/bad/bad15.jpg">
+                        <img src="images/bad/bad15.jpg" alt="Bild 3" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade bad">
+                    <a href="images/bad/bad10.jpg">
+                        <img src="images/bad/bad10.jpg" alt="Bild 4" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade bad">
+                    <a href="images/bad/bad22.jpg">
+                        <img src="images/bad/bad22.jpg" alt="Bild 5" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade bad">
+                    <a href="images/bad/bad12_ganz.JPG">
+                        <img src="images/bad/bad12.JPG" alt="Bild 6" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'bad')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'bad')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+            <!-- ##################### Wohnen ##################### -->
+
+            <div class="headline" name="slider" category="Wohnen">
+                <h4>Wohnen</h4>
+            </div>
+
+            <div class="slide" category="Wohnen" name="slider" slides="wohnen" style="display: none;">
+                <div class="slides fade wohnen">
+                    <a href="images/wohnen/wohnen1.jpg">
+                        <img src="images/wohnen/wohnen1.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wohnen">
+                    <a href="images/wand/wand1.jpg">
+                        <img src="images/wand/wand1.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wohnen">
+                    <a href="images/wohnen/wohnen4.jpg">
+                        <img src="images/wohnen/wohnen4.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wohnen">
+                    <a href="images/wohnen/wohnen9.jpg">
+                        <img src="images/wohnen/wohnen9.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wohnen">
+                    <a href="images/losungen/losungen6.JPG">
+                        <img src="images/losungen/losungen6.JPG" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wohnen">
+                    <a href="images/losungen/losungen7.JPG">
+                        <img src="images/losungen/losungen7.JPG" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'wohnen')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'wohnen')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+            <div class="headline" name="slider" category="Wohnen">
+                <h4>Tische</h4>
+            </div>
+
+            <div class="slide" category="Wohnen" name="slider" slides="tisch" style="display: none;">
+                <div class="slides fade tisch">
+                    <a href="images/wohnen/wohnen5.jpg">
+                        <img src="images/wohnen/wohnen5.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade tisch">
+                    <a href="images/wohnen/wohnen7.jpg">
+                        <img src="images/wohnen/wohnen7.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade tisch">
+                    <a href="images/wohnen/wohnen8.jpg">
+                        <img src="images/wohnen/wohnen8.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade tisch">
+                    <a href="images/wohnen/wohnen14_ganz.jpg">
+                        <img src="images/wohnen/wohnen14.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade tisch">
+                    <a href="images/wohnen/wohnen15_ganz.jpg">
+                        <img src="images/wohnen/wohnen15.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade tisch">
+                    <a href="images/wohnen/wohnen16_ganz.jpg">
+                        <img src="images/wohnen/wohnen16.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade tisch">
+                    <a href="images/wohnen/wohnen17_ganz.jpg">
+                        <img src="images/wohnen/wohnen17.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade tisch">
+                    <a href="images/sonstiges/sonstiges7.jpg">
+                        <img src="images/sonstiges/sonstiges7.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'tisch')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'tisch')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+            <div class="headline" name="slider" category="Wohnen">
+                <h4>Sitzfenster</h4>
+            </div>
+
+            <div class="slide" category="Wohnen" name="slider" slides="sitzfenster" style="display: none;">
+                <div class="slides fade sitzfenster">
+                    <a href="images/wohnen/wohnen10.jpg">
+                        <img src="images/wohnen/wohnen10.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade sitzfenster">
+                    <a href="images/wohnen/wohnen18.jpg">
+                        <img src="images/wohnen/wohnen18.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade sitzfenster">
+                    <a href="images/wohnen/wohnen19.jpg">
+                        <img src="images/wohnen/wohnen19.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade sitzfenster">
+                    <a href="images/wohnen/wohnen20.jpg">
+                        <img src="images/wohnen/wohnen20.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'sitzfenster')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'sitzfenster')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+            <div class="headline" name="slider" category="Wohnen">
+                <h4>Treppenschrank</h4>
+            </div>
+
+            <div class="slide" category="Wohnen" name="slider" slides="treppenschrank" style="display: none;">
+                <div class="slides fade treppenschrank">
+                    <a href="images/wohnen/wohnen2.jpg">
+                        <img src="images/wohnen/wohnen2.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenschrank">
+                    <a href="images/wohnen/wohnen3.jpg">
+                        <img src="images/wohnen/wohnen3.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenschrank">
+                    <a href="images/wohnen/wohnen27.jpg">
+                        <img src="images/wohnen/wohnen27.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenschrank">
+                    <a href="images/wohnen/wohnen11.jpg">
+                        <img src="images/wohnen/wohnen11.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenschrank">
+                    <a href="images/wohnen/wohnen13.jpg">
+                        <img src="images/wohnen/wohnen13.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'treppenschrank')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'treppenschrank')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+            <div class="headline" name="slider" category="Wohnen">
+                <h4>Garderobe</h4>
+            </div>
+
+            <div class="slide" category="Wohnen" name="slider" slides="garderobe" style="display: none;">
+                <div class="slides fade garderobe">
+                    <a href="images/sonstiges/sonstiges13.jpg">
+                        <img src="images/sonstiges/sonstiges13.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade garderobe">
+                    <a href="images/sonstiges/sonstiges6.jpg">
+                        <img src="images/sonstiges/sonstiges6.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'garderobe')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'garderobe')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+            <div class="headline" name="slider" category="Wohnen">
+                <h4>Ankleide</h4>
+            </div>
+
+            <div class="slide" category="Wohnen" name="slider" slides="ankleide" style="display: none;">
+                <div class="slides fade ankleide">
+                    <a href="images/sonstiges/sonstiges22_ganz.JPG">
+                        <img src="images/sonstiges/sonstiges22.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'ankleide')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'ankleide')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- ##################### Büro ##################### -->
+
+            <div class="headline" name="slider" category="Büro">
+                <h4>Büro</h4>
+            </div>
+
+            <div class="slide" category="Büro" name="slider" slides="buro" style="display: none;">
+                <div class="slides fade buro">
+                    <a href="images/buro/buro0.jpg">
+                        <img src="images/buro/buro0.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade buro">
+                    <a href="images/buro/buro1.jpg">
+                        <img src="images/buro/buro1.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade buro">
+                    <a href="images/buro/buro2.JPG">
+                        <img src="images/buro/buro2.JPG" alt="Bild 3" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade buro">
+                    <a href="images/buro/buro3.JPG">
+                        <img src="images/buro/buro3.JPG" alt="Bild 4" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade buro">
+                    <a href="images/buro/buro4.JPG">
+                        <img src="images/buro/buro4.JPG" alt="Bild 5" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'buro')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'buro')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- ##################### Wandverkleidungen ##################### -->
+
+            <div class="headline" name="slider" category="Wandverkleidungen">
+                <h4>Wandverkleidungen</h4>
+            </div>
+
+            <div class="slide" category="Wandverkleidungen" name="slider" slides="wand" style="display: none;">
+                <div class="slides fade wand">
+                    <a href="images/wand/wand0.jpg">
+                        <img src="images/wand/wand0.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wand">
+                    <a href="images/wand/wand1.jpg">
+                        <img src="images/wand/wand1.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wand">
+                    <a href="images/wand/wand2.jpg">
+                        <img src="images/wand/wand2.jpg" alt="Bild 3" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wand">
+                    <a href="images/wand/wand3.jpg">
+                        <img src="images/wand/wand3.jpg" alt="Bild 4" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wand">
+                    <a href="images/wand/wand4.jpg">
+                        <img src="images/wand/wand4.jpg" alt="Bild 5" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wand">
+                    <a href="images/wand/wand11.jpg">
+                        <img src="images/wand/wand11.jpg" alt="Bild 6" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wand">
+                    <a href="images/wand/wand12.JPG">
+                        <img src="images/wand/wand12.JPG" alt="Bild 7" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wand">
+                    <a href="images/wand/wand5.JPG">
+                        <img src="images/wand/wand5.JPG" alt="Bild 8" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wand">
+                    <a href="images/wand/wand10.JPG">
+                        <img src="images/wand/wand10.JPG" alt="Bild 9" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wand">
+                    <a href="images/wand/wand6.JPG">
+                        <img src="images/wand/wand6.JPG" alt="Bild 10" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade wand">
+                    <a href="images/wand/wand7.jpg">
+                        <img src="images/wand/wand7.jpg" alt="Bild 11" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'wand')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'wand')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- ##################### Lösungen ##################### -->
+
+            <div class="headline" name="slider" category="Lösungen">
+                <h4>Treppenelemente</h4>
+            </div>
+
+            <div class="slide" category="Lösungen" name="slider" slides="treppenelemente" style="display: none;">
+                <div class="slides fade treppenelemente">
+                    <a href="images/losungen/losungen0_ganz.JPG">
+                        <img src="images/losungen/losungen0.JPG" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelemente">
+                    <a href="images/losungen/losungen3.jpg">
+                        <img src="images/losungen/losungen3.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelemente">
+                    <a href="images/losungen/losungen1.jpg">
+                        <img src="images/losungen/losungen1.jpg" alt="Bild 3" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelemente">
+                    <a href="images/losungen/losungen2.JPG">
+                        <img src="images/losungen/losungen2.JPG" alt="Bild 4" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelemente">
+                    <a href="images/losungen/losungen5.JPG">
+                        <img src="images/losungen/losungen5.JPG" alt="Bild 5" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelemente">
+                    <a href="images/losungen/losungen8.jpg">
+                        <img src="images/losungen/losungen8.jpg" alt="Bild 6" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelemente">
+                    <a href="images/losungen/losungen9.JPG">
+                        <img src="images/losungen/losungen9.JPG" alt="Bild 7" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'treppenelemente')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'treppenelemente')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- ##################### Sonstiges ##################### -->
+
+            <div class="headline" name="slider" category="Sonstiges">
+                <h4>Treppen</h4>
+            </div>
+
+            <div class="slide" category="Sonstiges" name="slider" slides="treppe" style="display: none;">
+                <div class="slides fade treppe">
+                    <a href="images/sonstiges/sonstiges0.jpg">
+                        <img src="images/sonstiges/sonstiges0.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppe">
+                    <a href="images/sonstiges/sonstiges1.jpg">
+                        <img src="images/sonstiges/sonstiges1.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppe">
+                    <a href="images/sonstiges/sonstiges12.jpg">
+                        <img src="images/sonstiges/sonstiges12.jpg" alt="Bild 3" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppe">
+                    <a href="images/sonstiges/sonstiges9.jpg">
+                        <img src="images/sonstiges/sonstiges9.jpg" alt="Bild 4" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppe">
+                    <a href="images/sonstiges/sonstiges17_ganz.jpg">
+                        <img src="images/sonstiges/sonstiges17.jpg" alt="Bild 5" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'treppe')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'treppe')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+            <div class="headline" name="slider" category="Sonstiges">
+                <h4>Handlauf</h4>
+            </div>
+
+            <div class="slide" category="Sonstiges" name="slider" slides="handlauf" style="display: none;">
+                <div class="slides fade handlauf">
+                    <a href="images/sonstiges/sonstiges2.jpg">
+                        <img src="images/sonstiges/sonstiges2.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade handlauf">
+                    <a href="images/sonstiges/sonstiges23.jpg">
+                        <img src="images/sonstiges/sonstiges23.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade handlauf">
+                    <a href="images/sonstiges/sonstiges24.jpg">
+                        <img src="images/sonstiges/sonstiges24.jpg" alt="Bild 3" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'handlauf')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'handlauf')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+            <div class="headline" name="slider" category="Sonstiges">
+                <h4>Treppenelemente</h4>
+            </div>
+
+            <div class="slide" category="Sonstiges" name="slider" slides="treppenelement" style="display: none;">
+                <div class="slides fade treppenelement">
+                    <a href="images/sonstiges/sonstiges8.jpg">
+                        <img src="images/sonstiges/sonstiges8.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelement">
+                    <a href="images/sonstiges/sonstiges14_start.jpg">
+                        <img src="images/sonstiges/sonstiges14_start.jpg" alt="Bild 2" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelement">
+                    <a href="images/sonstiges/sonstiges15_start_ganz.jpg">
+                        <img src="images/sonstiges/sonstiges15_start.jpg" alt="Bild 3" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelement">
+                    <a href="images/sonstiges/sonstiges16_start.jpg">
+                        <img src="images/sonstiges/sonstiges16_start.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelement">
+                    <a href="images/sonstiges/sonstiges18.jpg">
+                        <img src="images/sonstiges/sonstiges18.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelement">
+                    <a href="images/sonstiges/sonstiges19.jpg">
+                        <img src="images/sonstiges/sonstiges19.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelement">
+                    <a href="images/sonstiges/sonstiges20.jpg">
+                        <img src="images/sonstiges/sonstiges20.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+                <div class="slides fade treppenelement">
+                    <a href="images/sonstiges/sonstiges21_ganz.JPG">
+                        <img src="images/sonstiges/sonstiges21.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'treppenelement')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'treppenelement')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+
+            <div class="headline" name="slider" category="Sonstiges">
+                <h4>Sonstiges</h4>
+            </div>
+
+            <div class="slide" category= "Sonstiges" name="slider" slides="sonstiges" style="display: none;">
+                <div class="slides fade sonstiges">
+                    <a href="images/sonstiges/sonstiges11.jpg">
+                        <img src="images/sonstiges/sonstiges11.jpg" alt="Bild 1" class="slideImage" loading="lazy">
+                    </a>
+                </div>
+
+                <div class="buttons">
+                    <button class="PfeilButton" id="links" onclick="plusSlides(-1, 'sonstiges')">
+                        <img src="images/arrow_thin.svg" alt="Pfeil nach links"></img>
+                    </button>
+                    <button class="PfeilButton" id="rechts" onclick="plusSlides(1, 'sonstiges')">
+                        <img src="images/arrow_thin.svg" class="Pfeil_Rechts" style="transform: scaleX(-1);"
+                            alt="Pfeil nach rechts"> </img>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="adress">
+            <p>
+                <span>Schreinerei Möst</span>
+                <span class="spacer">-</span>
+                <span>Buchenstraße 24</span>
+                <span class="spacer">-</span>
+                <span>86498 Kettershausen</span>
+                <span class="spacer">-</span>
+                <span>Tel.: 08333 / 2898</span>
+                <span class="spacer">-</span>
+                <span>Mail: <a href="mailto: info@schreinerei-moest.de">info@schreinerei-moest.de</a></span>
+            </p>
+            <div class="impressum">
+                <button onclick="window.location.href = 'impressum.html';" type="buttonFooter"
+                    id="Impressum">Impressum</button>
+            </div>
+        </section>
+
+    </div>
+    <script>
+        var slideIndex = 1;
+        changeCategory("Küchen");
+
+        function plusSlides(n, prefix) {
+            showSlides(slideIndex += n, prefix);
+        }
+
+        function showSlides(n, prefix) {
+            var i;
+            var slides = document.getElementsByClassName("slides fade " + prefix);
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "initial";
+        }
+
+        function dropMenu() {
+            var menu = document.getElementsByClassName("drop_content");
+            if (menu[0].style.display != "block") {
+                menu[0].style.display = "block";
+            } else {
+                menu[0].style.display = "none";
+            }
+        }
+
+        function closeMenu(e) {
+            if (e.target.id != 'drop' && window.innerWidth < 818) {
+                var menu = document.getElementsByClassName("drop_content");
+                menu[0].style.display = "none";
+            }
+        }
+
+        function changeCategory(c) {
+            var dropbtn = document.getElementsByClassName("dropbtn_text");
+            var drop_content = document.getElementsByName("drop_content");
+            for (i = 0; i < drop_content.length; i++) {
+                if (drop_content[i].innerHTML == c) {
+                    drop_content[i].style.display = "none";
+                    drop_content[i].style.color = "#737373";
+                    drop_content[i].style.borderColor = "#737373";
+                    continue;
+                } else {
+                    drop_content[i].style.display = "inline-block";
+                    drop_content[i].style.color = "#9a9a9a";
+                    drop_content[i].style.borderColor = "#9a9a9a";
+                }
+            }
+            dropbtn[0].innerHTML = c;
+            var menu = document.getElementsByClassName("drop_content");
+            menu[0].style.display = "none";
+
+            var sliders = document.getElementsByName("slider");
+            for (i = 0; i < sliders.length; i++) {
+                if (sliders[i].getAttribute("category") == c) {
+                    if (sliders[i].className == "headline") {
+                        sliders[i].style.display = "block";
+                    } else {
+                        sliders[i].style.display = "flex";
+                        showSlides(slideIndex, sliders[i].getAttribute("slides"));
+                    }
+                } else {
+                    sliders[i].style.display = "none";
+                }
+            }
+        }
+
+        document.body.addEventListener('click', closeMenu, false);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,287 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+body,
+html {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: inherit;
+}
+
+button {
+  font-family: "Montserrat";
+  background-color: transparent;
+  color: #9a9a9a;
+  border-style: solid;
+  border-color: #9a9a9a;
+  border-width: 4px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #737373;
+  border-color: #737373;
+}
+
+body {
+  font-family: "Montserrat";
+  background-color: #484b53;
+}
+body div.wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-areas: "logo" "impressum" "navigation" "adress";
+}
+body div.wrapper section.logo {
+  grid-area: logo;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5em 0em 1em 0em;
+  background-color: #fecb63;
+  color: #2e3341;
+  height: 260px;
+}
+body div.wrapper section.logo img {
+  width: 15em;
+  padding: 0em;
+  margin: 0em;
+}
+body div.wrapper section.logo div.Logo_Schrift {
+  text-align: center;
+}
+body div.wrapper section.logo div.Logo_Schrift h1 {
+  margin: auto;
+  font-weight: 600;
+  font-size: 2.5em;
+}
+body div.wrapper section.logo div.Logo_Schrift h2 {
+  margin: auto;
+  font-weight: 400;
+  font-size: 1.5em;
+  letter-spacing: 3pt;
+}
+body div.wrapper section.navigation {
+  grid-area: navigation;
+}
+body div.wrapper section.navigation div.background {
+  display: none;
+}
+body div.wrapper section.navigation nav ul {
+  list-style-type: none;
+  padding: 0em;
+  text-align: center;
+  background: #1a3785;
+}
+body div.wrapper section.navigation nav ul li button {
+  width: 85%;
+  padding: 0.5em 0em 0.5em 0em;
+  margin: 0.5em 0em 0.5em 0em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1em;
+}
+body div.wrapper section.impressum {
+  grid-area: impressum;
+  margin: 0em 3em 0em 3em;
+  text-align: center;
+}
+body div.wrapper section.impressum p.blocksatz {
+  text-align: justify;
+  margin: 0em;
+}
+body div.wrapper section.impressum p.blocksatz strong {
+  text-align: center;
+}
+body div.wrapper section.adress {
+  grid-area: adress;
+}
+body div.wrapper section.adress p {
+  color: #9a9a9a;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: center;
+  line-break: auto;
+}
+body div.wrapper section.adress p span {
+  display: block;
+}
+body div.wrapper section.adress p span.spacer {
+  display: none;
+}
+body div.wrapper section.adress div.impressum {
+  background: #1a3785;
+  display: flex;
+  justify-content: center;
+}
+body div.wrapper section.adress div.impressum button {
+  width: 85%;
+  padding: 0.5em 0em 0.5em 0em;
+  margin: 0.5em 0em 0.5em 0em;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+@media only screen and (min-width: 560px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 796px) {
+  body div.wrapper {
+    grid-template-columns: 60% auto;
+    grid-row-gap: 1.5em;
+    grid-column-gap: 1.5em;
+    grid-template-areas: "logo logo" "impressum impressum" "navigation navigation" "adress adress";
+  }
+  body div.wrapper section.navigation nav ul {
+    margin: 0em;
+  }
+  body div.wrapper section.adress {
+    background-color: #1a3785;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  body div.wrapper section.adress p {
+    font-size: 0.65em;
+  }
+  body div.wrapper section.adress p span {
+    display: contents;
+  }
+  body div.wrapper section.adress p span.spacer {
+    display: contents;
+  }
+  body div.wrapper section.adress div.impressum {
+    width: 15%;
+    padding: 0em;
+  }
+  body div.wrapper section.adress div.impressum button {
+    border-width: 2px;
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-width: 818px) {
+  body div.wrapper {
+    grid-template-columns: 30% 30% auto;
+    grid-row-gap: 1.5em;
+    grid-template-areas: "logo navigation navigation" "impressum impressum impressum" "adress adress adress";
+    align-items: center;
+  }
+  body div.wrapper section.logo {
+    padding: 1em 0em 1em 0em;
+    height: 7.5em;
+  }
+  body div.wrapper section.logo img {
+    width: 7em;
+  }
+  body div.wrapper section.logo div.Logo_Schrift h1 {
+    font-size: 1.4em;
+  }
+  body div.wrapper section.logo div.Logo_Schrift h2 {
+    font-size: 0.9em;
+    letter-spacing: 3pt;
+  }
+  body div.wrapper section.navigation {
+    align-content: center;
+  }
+  body div.wrapper section.navigation div.background {
+    display: block;
+    position: absolute;
+    top: 2em;
+    background-color: #1a3785;
+    width: calc(70% - 1.5em);
+    height: 5.5em;
+  }
+  body div.wrapper section.navigation nav ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: transparent;
+  }
+  body div.wrapper section.navigation nav ul li {
+    width: 100%;
+    padding: 0em;
+    margin: 0em;
+  }
+  body div.wrapper section.navigation nav ul li button {
+    width: 90%;
+    padding: 0em;
+    margin: 0em;
+    height: 10em;
+    font-size: 0.8em;
+    border-width: 2px;
+  }
+}
+@media only screen and (min-width: 881px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 936px) {
+  html {
+    font-size: 22px;
+  }
+  body div.wrapper section.logo img {
+    margin-bottom: 0.5em;
+  }
+  body div.wrapper section.navigation nav ul li button {
+    letter-spacing: 0.04em;
+  }
+  body div.wrapper section.adress p {
+    font-size: 0.63em;
+  }
+}
+@media only screen and (min-width: 1030px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1123px) {
+  html {
+    font-size: 26px;
+  }
+  body div.wrapper {
+    grid-template-columns: 336.9px 30% auto;
+  }
+  body div.wrapper section.navigation div.background {
+    width: calc(100% - 336.9px - 1.5em);
+  }
+}
+@media only screen and (min-width: 1217px) {
+  body div.wrapper {
+    grid-template-columns: 336.9px 35% auto;
+  }
+  body div.wrapper section.navigation nav ul li button {
+    letter-spacing: 0.11em;
+  }
+  body div.wrapper section.adress {
+    justify-content: space-evenly;
+  }
+  body div.wrapper section.adress p {
+    font-size: 0.7em;
+  }
+}
+@media only screen and (min-width: 1302px) {
+  body div.wrapper section.navigation nav ul li button {
+    letter-spacing: 0.2em;
+  }
+}
+@media only screen and (min-width: 1369px) {
+  body div.wrapper section.navigation nav ul li {
+    width: 243.767px;
+  }
+  body div.wrapper section.navigation nav ul li button {
+    letter-spacing: 0.25em;
+  }
+}/*# sourceMappingURL=impressum.css.map */
