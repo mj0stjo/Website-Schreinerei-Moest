@@ -37,7 +37,7 @@ Contributions to the website are welcome! If you would like to contribute, pleas
 4. Push your changes to the branch on your forked repository: `git push origin feature/your-feature-name`.
 5. Submit a pull request describing your changes.
 
-Please ensure that your code adheres to the project's coding style and conventions.
+Please ensure that your code adheres to the project's coding style and conventions. Also the website has to fulfill all the legal requirements of the german law, as it is targeted to a german audience.
 
 ## License
 
